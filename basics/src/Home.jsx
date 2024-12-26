@@ -1,7 +1,12 @@
 import React from 'react'
 
-export default function Home(pr) {
+export default function Home(props) {
     return (
-        <div>Home  Component</div>
+        <div>
+            <h1>Home  Component</h1>
+            <h1>Welcome {props.name}  
+                {props.age}
+            </h1>
+        </div>
     )
 }

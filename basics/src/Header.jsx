@@ -1,8 +1,9 @@
 export default function Header(){
-    return{
-        <>
-     <h1>Header Components</h1>
-     <header>Recent ee</header>
- </>
+    return(
+        <div>
+        <h1>Some Heading</h1>
+        <header>Header Content</header>
+        </div>
+    )
 }
-}
+
